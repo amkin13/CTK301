@@ -1,0 +1,63 @@
+/* General */
+p {
+    color: #075252;
+    background-color: #ffc5c5;  
+  }
+
+h1 {
+    color: #4e0808;
+    background-color: #5555ff;  
+}
+
+h2 {
+    color: #314e08;
+    background-color: #ff7474;
+}
+
+h3 {
+    color: #902ead;
+    background-color: #90ff6c;
+}
+
+/* Links */
+a {
+    color: red;
+}
+
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* Classes */
+.pageTitle {
+    font-size: 52px;
+}
+
+.navTitle {
+    font-size: 41px;
+}
+
+/* IDs */
+#ctkClasses_200_header {
+    border-radius: 25px;
+    text-indent: 8px;
+}
+
+#ctkClasses_300_header {
+    border-radius: 25px;
+    text-indent: 8px;
+}
+
+#ctkClasses_span_TheDigitalArts {
+    color: red;
+    font-size: 32px;
+}
+
+#ctkClasses_div_200Classes {
+    text-align: right;
+}
