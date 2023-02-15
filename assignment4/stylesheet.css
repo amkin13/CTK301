@@ -1,0 +1,104 @@
+/* General */
+
+
+* {
+ font-family: sans-serif;
+}
+
+p {
+    color: #075252;
+    background-color: #ffc5c5;
+}
+
+h1 {
+    color: #3ae318;
+    background-color: #ff712b;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    color: #9bff0f;
+    background-color: #ff712b;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    color: #14fd03;
+    background-color: #ff712b;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4 {
+    color: #14fd03;
+    background-color: #ff712b;
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    background-image: url(background.jpg)
+}
+
+/* Links */
+a {
+    color: red;
+}
+
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* Classes */
+.pageTitle {
+    font-size: 52px;
+}
+
+.navTitle {
+    font-size: 41px;
+}
+
+.pageImages {
+    border: 8px solid #000000;
+    padding: 4px 4px 4px 4px;
+    background-color: #fff022;
+}
+
+/* IDs */
+#ctkClasses_200_header {
+    border-radius: 25px;
+    text-indent: 8px;
+}
+
+#ctkClasses_300_header {
+    border-radius: 25px;
+    text-indent: 8px;
+}
+
+#ctkClasses_span_TheDigitalArts {
+    color: red;
+    font-size: 32px;
+}
+
+#ctkClasses_div_200Classes {
+    text-align: right;
+}
+
+#ctkReq_seq_gameDesign {
+    text-align: center;
+}
+
+#ctkReq_desc_audioMusic {
+    text-align: justify;
+}
+
+#ctkMajor_Desc {
+    text-align: justify;
+}
