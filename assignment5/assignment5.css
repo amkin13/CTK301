@@ -1,0 +1,88 @@
+/* General */
+
+body {
+    background-image: url(a5bg.png);
+}
+
+/* Classes */
+
+
+
+/* IDS */
+
+#header_helvetica_noBold {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 20px 4px 20px 4px;
+    border: 8px solid white;
+    padding: 12px;
+    background-color: white;
+}
+
+#header_helvetica_yesBold {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#main_paragraphContent {
+    text-align: justify;
+    background-color: white;
+    margin: 20px 4px 0px 4px;
+    border: 8px solid white;
+    padding: 8px 12px 8px 12px;
+}
+
+#main_paragraphContent a {
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+#main_paragraphContent a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#header_bigUnderline {
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+#main_margin {
+    padding: 10px;
+}
+
+#main_footerContent {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: darkblue;
+    border: 3px solid white;
+    margin: 0px 4px 10px 4px;
+    padding: 30px 70px 30px 70px;
+}
+
+#main_nav li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 2px 12px 2px 0px;
+    display: inline-block;
+    width: 150px;
+    background-color: darkblue;
+}
+
+#main_nav li a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 20px;
+    background-color: blue;
+}
+
+#main_nav li a:hover {
+    background-color: rgb(1, 1, 81);
+}
