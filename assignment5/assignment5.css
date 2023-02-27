@@ -64,6 +64,10 @@ body {
     padding: 30px 70px 30px 70px;
 }
 
+#main_nav {
+    padding: 0px 0px 0px 4px;
+}
+
 #main_nav li {
     list-style-type: none;
     padding: 0px;
