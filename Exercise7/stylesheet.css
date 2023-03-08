@@ -30,6 +30,7 @@ a:hover {
     margin: 0;
     padding: 24px;
     font-weight: normal;
+    border-bottom: 4px solid black;
 }
 
 #main_nav ul {
