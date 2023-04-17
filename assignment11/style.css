@@ -1,0 +1,137 @@
+body {
+  background-color: #999999;
+  background-image: url(bg.png);
+  background-size: 48px;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-image: url(trbg.png);
+  background-size: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 24px;
+  margin-bottom: 24px;
+  border-radius: 24px;
+  box-shadow: 0.33em 0.33em black;
+}
+
+#header_smallText {
+  font-size: 0.66em;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#leftContainer {
+  grid-column: span 3;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  grid-column: span 3;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0.33em 0.33em black;
+  height: 305px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes slide {
+  0% {
+    backgorund-position-x: 0;
+  }
+  100% {
+    background-position-x: 512px;
+  }
+}
+
+nav li a {
+  display: block;
+  background-image: url(trbg.png);
+  background-size: 24px;
+  background-position-x: 20;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+}
+
+nav li a:hover {
+  background-image: url(trbg_hover2.png);
+  color:rgb(119, 156, 255);
+  animation: slide 25s linear infinite;
+}
+
+main {
+  grid-column: span 9;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0.33em 0.33em black;
+  padding: 24px;
+}
+
+footer {
+  grid-column: span 12;
+  background-image: url(trbg.png);
+  background-size: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 24px;
+  margin-top: 24px;
+  border-radius: 24px;
+  box-shadow: 0.33em 0.33em black;
+}
+
+#contact_iconContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 150px;
+}
+
+#contact_iconContainer * {
+  font-size: 100px;
+  width: 75px;
+  color: black;
+  text-align: center;
+  transition: font-size 0.1s;
+}
+
+#contact_iconContainer a:hover {
+  font-size: 110px;
+}
+
+#temp_customFont {
+  font-family: 'Anuphan', sans-serif;
+  font-style: normal;
+}
