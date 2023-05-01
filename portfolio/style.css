@@ -136,20 +136,25 @@ footer {
 
 #contact_iconContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 150px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 36px;
+  height: 156px;
+  width: 180px;
+  text-align: center;
 }
 
 #contact_iconContainer * {
+  margin-top: 28px;
   font-size: 100px;
-  width: 75px;
+  width: 100px;
   color: black;
   text-align: center;
   transition: font-size 0.1s;
+  grid-column: span 1;
 }
 
 #contact_iconContainer a:hover {
-  font-size: 110px;
+  font-size: 108px;
 }
 
 #temp_customFont {
