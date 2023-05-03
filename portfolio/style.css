@@ -138,13 +138,13 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 36px;
-  height: 156px;
+  height: 115px;
   width: 180px;
   text-align: center;
 }
 
 #contact_iconContainer * {
-  margin-top: 28px;
+  margin-top: 0px;
   font-size: 100px;
   width: 100px;
   color: black;
@@ -179,7 +179,7 @@ footer {
   font-weight: bold;
 }
 
-.projects_list {
+.grey_list {
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(64, 74, 84);
   font-size: 95%;
@@ -198,4 +198,28 @@ footer {
   height: 128px;
   text-align: center;
   border-radius: 12px;
+}
+
+.avaImg {
+  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  margin-right: 24px;
+}
+
+#home_grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+#home_avaImg {
+  grid-column: span 4;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+
+#home_gridText {
+  grid-column: span 16;
 }
