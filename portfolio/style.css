@@ -214,12 +214,12 @@ footer {
 }
 
 #home_avaImg {
-  grid-column: span 4;
-  width: 150px;
-  height: 150px;
+  grid-column: span 6;
+  width: 232px;
+  height: 232px;
   border-radius: 12px;
 }
 
 #home_gridText {
-  grid-column: span 16;
+  grid-column: span 14;
 }
